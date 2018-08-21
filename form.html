@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="abc" method="post">
+    <div class="username">
+      <label for="username">姓名：</label>
+      <input type="text" id="username" name="username" placeholder="用户名">
+    </div> 
+    <div class="password">
+      <label for="password">密码：</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <div class="sex">
+      <label for="sex">性别：</label>
+      <input type="radio" id="sex" name="sex" value="male">男
+      <input type="radio" id="sex" name="sex" value="female">女
+    </div> 
+    <div class="orientation">
+      <label for="orientation">取向：</label>
+      <input type="radio" id="orientation" name="orientation" value="male">男
+      <input type="radio" id="orientation" name="orientation" value="female">女
+    </div>
+    <div class="hobby">
+      <label for="hobby">爱好：</label>
+      <input type="checkbox" id="hobby" name="hobby" value="dota">dota
+      <input type="checkbox" id="hobby" name="hobby" value="travel">旅游
+      <input type="checkbox" id="hobby" name="hobby" value="pet">宠物
+    </div>
+    <div class="textarea">
+      <label for="comment">评论：</label>
+      <textarea rows="15" cols="50" id="comment" name="comment">ddd</textarea>
+    </div>
+    <div class="car">
+      <label for="car">我的car：</label>
+      <select name="car" id="car">
+        <option value="SAAB" selected>萨博</option>
+        <option value="LEXUS">雷克萨斯</option>
+        <option value="HONDA">本田</option>
+        <option value="BUICK">别克</option>
+        <option value="Volkswagen">大众</option>
+      </select>
+      <input type="submit" value="提交">
+    </div>
+  </form> 
+</body>
+</html>
